@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahad Rehman - SQA Portfolio</title>
+    <style>
+        body {
+            background-color: #f4f6f9;
+            color: #222;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #003366;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            background: #ffffff;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative;
+        }
+        ul li {
+            background: #e0e7ff;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            text-align: center;
+            flex: 0 0 100%;
+        }
+        .reviews-container, .skills-container {
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative;
+            width: 100%;
+        }
+        .reviews, .skills {
+            display: flex;
+            animation: slide 15s linear infinite;
+        }
+        .review {
+            background: #e8f5e9;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            flex: 0 0 100%;
+            text-align: center;
+        }
+        @keyframes slide {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        .contact {
+            text-align: center;
+            padding: 20px;
+        }
+        a {
+            color: #003366;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>Ahad Rehman - Manual SQA</header>
+    
+    <div class="container">
+        <section class="section" id="about">
+            <h2>About Me</h2>
+            <img src="Media.jpg" alt="Ahad Rehman's Profile Picture" class="profile-pic">
+            <p>Manual Software Quality Assurance Engineer ensuring top-tier software quality.</p>
+            <p><a href="https://www.linkedin.com/in/ahad-rehman-51007615a/">LinkedIn</a> | Email: ahadrehman99@gmail.com</p>
+        </section>
+        
+        <section class="section" id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <ul class="skills">
+                    <li>Manual Testing</li>
+                    <li>Test Case Design & Execution</li>
+                    <li>Bug Tracking & Reporting</li>
+                    <li>Functional & Regression Testing</li>
+                    <li>Usability & Performance Testing</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="section" id="reviews">
+            <h2>Upwork Reviews</h2>
+            <div class="reviews-container">
+                <div class="reviews">
+                    <div class="review">⭐⭐⭐⭐⭐ "Ahad did a fantastic job testing our web app!"</div>
+                    <div class="review">⭐⭐⭐⭐⭐ "Professional and thorough in his testing."</div>
+                    <div class="review">⭐⭐⭐⭐⭐ "Great attention to detail, highly recommend!"</div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Phone: 0331-5720909</p>
+        </section>
+    </div>
+</body>
+</html>
